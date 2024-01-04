@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo App
 
-## Getting Started
+## This Todo Application is simple and is made to understand the server actions from Next.js.
 
-First, run the development server:
+### Features
+
+- Create a new todo
+- Delete a todo
+
+### Getting Started
+
+Follow these steps to set up and run the Todo App locally:
 
 ```bash
-npm run dev
+# Clone the repository
+git clone https://github.com/gugavillar/server-action.git
+
+# Navigate to the Project Directory
+cd server-action
+
+# Install Dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+# Create the database
+node src/initdb.js
+
+# Run the Application
+npm dev
 # or
 yarn dev
 # or
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Access the Application:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Open your preferred web browser and go to http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Usage
 
-## Learn More
+1. Add a todo:
 
-To learn more about Next.js, take a look at the following resources:
+   - Type your todo in the input field.
+   - Click the "Add" button to add the todo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Delete a todo:
+   - Click on the delete button next to the todo you want to delete.
