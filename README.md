@@ -13,7 +13,7 @@ Follow these steps to set up and run the Todo App locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/gugavillar/server-action.git
+git clone https://github.com/gugavillar/server-actions.git
 
 # Navigate to the Project Directory
 cd server-action
